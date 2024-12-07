@@ -9,7 +9,7 @@
 ### Dataset
 
 - Place noisy datasets in dataset folder.
-  - [[Darmstadt Noise Dataset]](https://noise.visinf.tu-darmstadt.de/), [[SIDD-Medium Dataset/Validation Data and Ground Truth]](https://www.eecs.yorku.ca/~kamel/sidd/)
+  - [[SIDD-Medium Dataset/Validation Data and Ground Truth]](https://www.eecs.yorku.ca/~kamel/sidd/)
 
 - Final dataset directories should be like 
 ```
