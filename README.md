@@ -14,8 +14,6 @@
 - Final dataset directories should be like 
 ```
 dataset
-├─ dnd2017
-│  └─....
 ├─ SIDD_Medium_Srgb
 │  └─....
 ├─ ValidationNoisyBlocksSrgb.mat
@@ -28,12 +26,12 @@ dataset
 
 ### Training code
 ```
-python train.py --gpu [GPU_ID] --name [Experiment Name] --dataset [SIDD or DND]
+python train.py --gpu [GPU_ID] --name [Experiment Name]
 
 Arguments
     --gpu       GPU ID
     --name      Name of Experiment. Checkpoints and tfevents will be saved in ckpts/[name].
-    --dataset   Training dataset(tfrecords) : SIDD or DND (default: SIDD)
+    --dataset   Training dataset(tfrecords) : SIDD
     --patchsize Size of training patch. Must be dividable by stride_b and stride_i. (default: 120)
                 Use 240 for better performance.
 ```
