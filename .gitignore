@@ -1,6 +1,6 @@
 /CBSN-master.zip
-/dataset/*
-/ckpts/*
+# /dataset/*
+# /ckpts/*
 /.idea
 /results
 /*.tfrecords
