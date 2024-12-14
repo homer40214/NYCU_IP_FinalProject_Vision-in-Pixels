@@ -1,10 +1,24 @@
 # NYCU_IP_FinalProject_Vision-in-Pixels
 
+### Model
+#### Modify C-BSN
+![Alt text](model.png)
+
+The following part is the original C-BSN architecture. Our adjustment, shown above, incorporates zero-shot Noise2Noise pairs down-sampling into the pipeline and calculates a new loss.
+
+
 ### Environment
 
 -	Ubuntu 18.04
 -	Tensorflow 1.15
 -	Python 3.7
+
+```
+conda env create -f environment.yaml
+conda activate tf1
+```
+
+
 
 ### Dataset
 
